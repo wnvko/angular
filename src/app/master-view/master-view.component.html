@@ -1,0 +1,26 @@
+<button igxButton="raised" igxRipple [igxToggleAction]="dropdown" class="button">
+  Button
+</button>
+<igx-icon [igxToggleAction]="dropdown1" class="icon">
+  mail
+</igx-icon>
+<button igxButton="icon" igxRipple [igxToggleAction]="dropdown2">
+  <igx-icon>
+    email
+  </igx-icon>
+</button>
+<igx-drop-down #dropdown class="dropdown">
+  <igx-drop-down-item>
+    Option
+  </igx-drop-down-item>
+</igx-drop-down>
+<igx-drop-down #dropdown1 class="dropdown">
+  <igx-drop-down-item>
+    Option
+  </igx-drop-down-item>
+</igx-drop-down>
+<igx-drop-down #dropdown2 class="dropdown">
+  <igx-drop-down-item>
+    Option
+  </igx-drop-down-item>
+</igx-drop-down>
